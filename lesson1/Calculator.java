@@ -6,15 +6,14 @@ public class Calculator {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int number1 = getInt();
-        int number2 = getInt();
+        int number1 = getNum();
+        int number2 = getNum();
         char operation = getOperation();
         int result = calculations(number1, number2, operation);
         System.out.println("Result:" + result);
-
     }
 
-    private static int getInt() {
+    private static int getNum() {
         System.out.println("Enter a number:");
         int number;
         if (scanner.hasNextInt()) {
@@ -22,7 +21,7 @@ public class Calculator {
         } else {
             System.out.println("Error. Please enter a number");
             scanner.next();
-            number = getInt();
+            number = getNum();
         }
         return number;
     }
@@ -33,7 +32,6 @@ public class Calculator {
         if (scanner.hasNext()) {
             operation = scanner.next().charAt(0);
         } else {
-            System.out.println("Error. Please enter an operation");
             scanner.next();
             operation = getOperation();
         }
