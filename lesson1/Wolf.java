@@ -2,7 +2,7 @@ package lesson1;
 
 public class Wolf {
     String gender = "male";
-    String nickname = "fang";
+    String nickname = "Fang";
     String color = "white";
     double weight = 45.3;
     int age = 3;
@@ -21,5 +21,9 @@ public class Wolf {
 
     void howl() {
         System.out.println("Wolf howls at the moon");
+    }
+
+    void hunt() {
+        System.out.println("Wolf on the hunt");
     }
 }
