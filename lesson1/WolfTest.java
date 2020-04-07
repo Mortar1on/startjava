@@ -3,8 +3,10 @@ package lesson1;
 public class WolfTest {
     public static void main(String[] args) {
         Wolf wolf = new Wolf();
-        System.out.println("Wolf named: " + wolf.nickname);
-        System.out.println("wolf age: " + wolf.age + " years");
+        wolf.setColor("Brown");
+        System.out.println("Wolf named: " + wolf.getNickname());
+        System.out.println("wolf age: " + wolf.getAge() + " years");
+        System.out.println(wolf.getColor());
         wolf.run();
         wolf.hunt();
     }
