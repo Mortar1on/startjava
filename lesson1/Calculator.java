@@ -7,8 +7,8 @@ public class Calculator {
 
     public static void main(String[] args) {
         int number1 = getNum();
-        int number2 = getNum();
         char operation = getOperation();
+        int number2 = getNum();
         int result = calculations(number1, number2, operation);
         System.out.println("Result:" + result);
     }
