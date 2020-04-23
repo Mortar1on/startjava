@@ -1,4 +1,4 @@
-package lesson1;
+package com.lesson1;
 
 public class Unicode {
     public static void main(String[] args) {

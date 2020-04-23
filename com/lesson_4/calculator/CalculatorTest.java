@@ -1,4 +1,4 @@
-package lesson_4.calculator;
+package com.lesson_4.calculator;
 
 import java.util.Scanner;
 

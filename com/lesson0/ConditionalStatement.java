@@ -1,4 +1,4 @@
-package lesson0;
+package com.lesson0;
 
 public class ConditionalStatement {
     public static void main(String[] args) {

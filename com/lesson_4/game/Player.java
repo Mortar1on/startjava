@@ -1,4 +1,4 @@
-package lesson_4.game;
+package com.lesson_4.game;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package lesson_4.game;
+package com.lesson_4.game;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -56,7 +56,7 @@ public class GuessNumber {
 
     private void inputNumber(Player player) {
         do {
-            System.out.println(player.getName() + " Enter a number:");
+            System.out.println(player.getName() + " enter a number:");
         } while (!player.setNumber(scanner.nextInt()));
     }
 
