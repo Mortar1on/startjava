@@ -1,4 +1,4 @@
-package lesson2;
+package lesson_2_3;
 
 public class Wolf {
     private String gender = "male";
